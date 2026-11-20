@@ -1,0 +1,25 @@
+{
+  "name": "m115-registre-urbain",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test test/UrbanIssueRegistry.ts",
+    "node": "hardhat node --network urbanLocal --hostname 127.0.0.1 --port 8555",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
+    "@types/chai": "^5.2.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^22.0.0",
+    "chai": "^5.0.0",
+    "ethers": "^6.0.0",
+    "hardhat": "^3.22.0",
+    "mocha": "^12.0.0",
+    "typescript": "~5.9.0"
+  }
+}

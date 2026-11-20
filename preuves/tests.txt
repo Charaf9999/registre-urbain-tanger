@@ -1,0 +1,29 @@
+
+> m115-registre-urbain@1.0.0 test
+> hardhat test test/UrbanIssueRegistry.ts
+
+No contracts to compile
+Running Mocha tests
+
+
+  UrbanIssueRegistry
+    ΓêÜ d├⌐signe la municipalit├⌐ et d├⌐marre avec un registre vide (54ms)
+    ΓêÜ publie une d├⌐claration citoyenne, son ├⌐v├⌐nement et sa date de bloc
+    ΓêÜ refuse les identifiants inconnus et en double (54ms)
+    ΓêÜ valide l'identifiant, les textes et la date sur cha├«ne
+    ΓêÜ refuse une d├⌐claration citoyenne d├⌐j├á affect├⌐e
+    ΓêÜ r├⌐serve les interventions au portefeuille municipal
+    ΓêÜ conserve les cinq ├⌐tapes, leurs acteurs, ├⌐quipes et commentaires
+    ΓêÜ bloque les sauts, retours et commentaires vides
+    ΓêÜ r├⌐affecte en cours sans perdre le statut ni l'ancienne ├⌐quipe
+    ΓêÜ importe un lot citoyen et annule tout le lot en cas de doublon
+    ΓêÜ r├⌐serve les reprises d'├⌐tat et d'├⌐quipe ├á la municipalit├⌐
+    ΓêÜ accepte le mod├¿le Reported avec ├⌐quipe lors d'un import municipal
+    ΓêÜ impose les limites de lot
+
+
+  13 passing (330ms)
+
+
+13 passing (13 mocha)
+

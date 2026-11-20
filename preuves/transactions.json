@@ -1,0 +1,85 @@
+{
+  "network": "Hardhat local",
+  "chainId": 31115,
+  "contract": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "deployment": "0x8a0d3a3400f35325b4660e09f310a74f2fd614ddcf1aa85ecfa7ec92a81afad9",
+  "deploymentBlock": 1,
+  "transport": "Hardhat EDR en processus, interface React dans Chromium ; portefeuille de test EIP-1193.",
+  "receipts": [
+    {
+      "hash": "0x7ece9ff20c4680aac4832eaed296cf36537839922ef7a0fa2748cefde1d2e1c9",
+      "block": 2,
+      "sender": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "success": true
+    },
+    {
+      "hash": "0x1f10b3b91cec85f715913b5a0b54431e508f061f054c25309869d85de696b358",
+      "block": 3,
+      "sender": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "success": true
+    },
+    {
+      "hash": "0x55414cbf3464ad26d7055f93f5824d37d021b89b432d92d847fcb5676eadbbc8",
+      "block": 4,
+      "sender": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "success": true
+    },
+    {
+      "hash": "0x7ce88c4ceab701c2393545d8c420ae390128a65ebe97dbc01fc330fb15d27fcf",
+      "block": 5,
+      "sender": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "success": true
+    },
+    {
+      "hash": "0x5a9a64efb0a6e453f8d8fb54d53cfa7b31fb06d71572e6dff3ccbc2d0249ff1d",
+      "block": 6,
+      "sender": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "success": true
+    },
+    {
+      "hash": "0x53da46683d5304bde514a1e09658fb6339b62d64e14c6975c4003d2b210f2d0c",
+      "block": 7,
+      "sender": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "success": true
+    }
+  ],
+  "publicCount": 4,
+  "issue": "CITY-2026-010",
+  "history": [
+    {
+      "status": 0,
+      "actor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "timestamp": 1795199814,
+      "team": "",
+      "comment": ""
+    },
+    {
+      "status": 1,
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "timestamp": 1795199818,
+      "team": "UrbanTeam01",
+      "comment": "Inspection du lampadaire programmée."
+    },
+    {
+      "status": 2,
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "timestamp": 1795199821,
+      "team": "UrbanTeam01",
+      "comment": "Diagnostic du circuit en cours."
+    },
+    {
+      "status": 3,
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "timestamp": 1795199824,
+      "team": "UrbanTeam01",
+      "comment": "Ampoule remplacée. Éclairage rétabli."
+    },
+    {
+      "status": 4,
+      "actor": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "timestamp": 1795199826,
+      "team": "UrbanTeam01",
+      "comment": "Contrôle final effectué sur place."
+    }
+  ]
+}
